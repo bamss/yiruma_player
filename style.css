@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1488 560L0 560 L0 312.69Q87.79 280.48%2c 120 368.27Q167.44 295.71%2c 240 343.15Q269.1 300.25%2c 312 329.34Q338.11 283.44%2c 384 309.55Q475.34 280.89%2c 504 372.24Q528.11 324.35%2c 576 348.46Q581.17 281.63%2c 648 286.8Q689.85 256.65%2c 720 298.5Q819.46 277.96%2c 840 377.42Q843.67 309.09%2c 912 312.75Q956.38 237.13%2c 1032 281.51Q1073.18 250.69%2c 1104 291.88Q1156.26 272.14%2c 1176 324.41Q1247.04 275.45%2c 1296 346.49Q1300.27 278.76%2c 1368 283.03Q1447.29 242.32%2c 1488 321.61z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1560 560L0 560 L0 362.22Q70.21 312.44%2c 120 382.65Q209.68 352.32%2c 240 442Q279.59 361.59%2c 360 401.17Q434.92 356.09%2c 480 431Q506.9 385.9%2c 552 412.81Q603.62 392.43%2c 624 444.04Q633.01 381.06%2c 696 390.07Q761.19 335.26%2c 816 400.46Q839.4 351.86%2c 888 375.26Q942.19 309.45%2c 1008 363.65Q1101.09 336.74%2c 1128 429.83Q1193.8 375.63%2c 1248 441.42Q1294.09 367.5%2c 1368 413.59Q1397.27 370.86%2c 1440 400.13Q1489.44 329.57%2c 1560 379.01z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1536 560L0 560 L0 455.58Q51.17 386.75%2c 120 437.92Q206.59 404.51%2c 240 491.1Q241.04 420.14%2c 312 421.19Q371.52 408.71%2c 384 468.23Q431.33 395.56%2c 504 442.89Q587.65 406.54%2c 624 490.2Q691.6 437.79%2c 744 505.39Q750.39 439.78%2c 816 446.18Q840.83 399.01%2c 888 423.84Q980.45 396.29%2c 1008 488.75Q1027.1 435.85%2c 1080 454.94Q1127.41 430.36%2c 1152 477.77Q1231.87 437.64%2c 1272 517.51Q1295.44 468.95%2c 1344 492.4Q1367.34 443.74%2c 1416 467.08Q1458.86 389.94%2c 1536 432.79z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 521.14Q52.32 501.46%2c 72 553.78Q114.02 523.8%2c 144 565.82Q176.75 478.58%2c 264 511.33Q311.73 487.06%2c 336 534.79Q401.94 480.73%2c 456 546.68Q506.8 525.48%2c 528 576.28Q563.84 492.12%2c 648 527.96Q722.36 482.32%2c 768 556.68Q804.5 473.17%2c 888 509.67Q939.02 488.69%2c 960 539.71Q1025.93 485.64%2c 1080 551.58Q1126.01 525.6%2c 1152 571.61Q1157.19 504.8%2c 1224 509.99Q1254.94 468.93%2c 1296 499.87Q1360.43 492.3%2c 1368 556.73Q1392.93 509.66%2c 1440 534.59Q1481.74 504.34%2c 1512 546.08z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 6px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #E1E6EC;
+    box-shadow: 5px 5px 11px #A2B1C6 , -5px -5px 11px  #fff  ;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.wrapper{
+    position: relative;
+}
+.container img{
+    width: 80%;
+   
+}
+.container h1{
+    font-size: 1.5rem;
+    margin: 12px 0 12px 0;
+}
+.buttons{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.buttons button{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 90px;
+    background-color: #E1E6EC;
+    text-align: left;
+    margin: 10px 9px;
+    border: none;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
+    /*background:linear-gradient(-45deg,#a2b1c6,#fff);*/
+}
+.buttons button:active{
+    background: #E1E6EC;
+    box-shadow: inset 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
+}
+.buttons button img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 42%;
+    height: 42%;
+}
+
+.level{
+    width: 80%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #E1E6EC;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
+    border-radius: 50px;
+    margin: 12px 0;
+}
+.level::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #A2B1C6;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 5px  #fff  ;
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 90px;
+}
+.level::-moz-range-thumb{
+    width: 50px;
+    height: 50px;
+}
+#me{
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+h1{
+    font-family: 'Fredoka One', cursive;
+}
